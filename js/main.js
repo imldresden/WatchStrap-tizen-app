@@ -30,7 +30,7 @@ window.onload = () => {
 				var ctx = canvas.getContext('2d');
 				var img = new Image;
 				img.onload = () => {
-					ctx.drawImage(img, 0, 0);
+					ctx.drawImage(img, 0, 0, 360, 360);
 				}
 				img.src = msg.payload;
 				break;

@@ -9,7 +9,7 @@ window.onload = () => {
 	document.body.style.backgroundColor = "gray";
 	
 	const canvas = document.getElementById('canvas');
-	const socket = io('http://141.76.67.139:31415');
+	const socket = io(server);
 	
 
 	socket.on('connect', () => {
